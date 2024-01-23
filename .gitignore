@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+/.vs
+/.git
+obj
+bin
+Properties
+*.xml
+*.DotSettings
+*.user
+*.config

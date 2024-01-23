@@ -1,0 +1,9 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# C# files
+[*.cs]
+
+# CS8618: Non nullable field _name is not initialized. Consider declare the field as nullable type
+dotnet_diagnostic.CS8618.severity = none
+dotnet_diagnostic.CS0618.severity = none

@@ -1,0 +1,33 @@
+﻿namespace CMS.Shared.Models
+{
+    public class UserTokenModel
+    {
+        public int UserTokenId { get; set; }
+
+        public int UserAccountId { get; set; }
+
+        public int UserId { get; set; }
+
+        public string Username { get; set; }
+
+        public int RoleId { get; set; }
+
+        public string RoleName { get; set; }
+
+        public string FullName { get; set; }
+
+        public string Token { get; set; }
+
+        public string Reference { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public short ExpiresIn { get; set; }
+
+        public DateTime ExpiryDate { get; set; }
+
+        public bool IsActive { get; set; }
+
+        public DateTime? ModifiedDate { get; set; }
+    }
+}
